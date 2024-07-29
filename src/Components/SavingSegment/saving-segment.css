@@ -1,0 +1,119 @@
+.save-seg{
+    height:100vh;
+    width:500px;
+    background:white;
+    position:absolute;
+    top:0;
+    right:-500px;
+    transition: right 1s ease;
+    z-index:10;
+}
+.save-seg .save-seg-nav{
+    background:#226870;
+    height:70px;
+    width:100%;
+    position:absolute;
+    top:0;
+    display:flex;
+    align-items:center;
+    text-align:left;
+   
+}
+.save-seg .save-seg-nav p{
+    color:white;
+    white-space:pre;
+    font-size:1em;
+    margin-left:50px;
+}
+
+.save-seg .form{
+    padding-top:100px;
+    text-align:left;
+    padding-left: 20px;
+}
+
+.save-seg .form .ad-schema-btn{
+    text-decoration:underline;
+    color: blue;
+    border:none;
+    background:transparent;
+    cursor:pointer;
+}
+
+.save-seg .form input{
+    width:80%;
+    height:30px;
+}
+.save-seg .form .schemas{
+    display: flex;
+    flex-direction: column;
+    width:max-content;
+    height:200px;
+    border:2px solid green;
+    padding:10px;
+    padding-left:30px;
+    overflow-y: auto;
+}
+
+.save-seg .form .schemas li::marker{
+   color:red;
+}
+
+.save-seg .form .schemas li select{
+    width:230px;
+    height:30px;
+    margin:auto;
+    color:black;
+}
+.save-seg .form .schemas li .rm-schema-btn{
+    color:grey;
+    background:transparent;
+    font-size:3rem;
+    margin:5px auto;
+    border:none;
+    position:relative;
+    top:10px;
+}
+.save-seg .form .schemas li .rm-schema-btn:hover{
+    color:rgb(250, 154, 154);
+}
+
+.save-seg .form .schemas li select option input{
+    width:100%;
+    color:black;
+}
+
+.save-seg .footer{
+    background:rgb(252, 238, 238);
+    height:70px;
+    width:100%;
+    display:flex;
+    text-align:center;
+    position:absolute;
+    bottom:0;
+}
+.save-seg .footer .cls-btn{
+    padding:10px;
+    background:white;
+    color:red;
+    font-size:1em;
+    border-radius:5px;
+    border:none;
+    height:60%;
+    margin:auto 10px;
+    cursor:pointer;
+} 
+.save-seg .footer .cls-btn:hover{
+    background:rgb(248, 206, 206);
+}
+.save-seg .footer .save-schemas{
+    background:#226870;
+    color:white;
+    border:none;
+    height:60%;
+    margin:auto 10px;
+    cursor:pointer;
+}
+.save-seg .footer .save-schemas:hover{
+    background: #144449;
+}
